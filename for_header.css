@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    animation-name: body;
+    animation-duration: 2s;
+}
+
+@keyframes body{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.ota{
+    background-image: linear-gradient(rgb(42, 42, 172), rgb(42, 42, 172), rgb(42, 42, 172), rgb(60, 60, 172), rgb(82, 82, 197), rgb(141, 151, 194), rgb(171, 180, 219), #fff);
+    height: 600px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.header-left h4{
+    color: #fff;
+    font-family: 'The Nautigal', cursive;
+    font: optional;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 12px 15px;
+}
+
+.header-right ul{
+    display: flex;
+    float: left;
+}
+
+.header-right ul li{
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 13px;
+}
+
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login a{
+    background-color: #fff;
+    padding: 5px 12px;
+    border-radius: 15px;
+    
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    padding: 0px 20px;
+    margin-left: -60px;
+}
+
+.dropdown-content p{
+    color: #000;
+    font-weight: 700;
+}
+
+/* ====HOVER==== */
+
+.header-ul li a:hover{
+    border-bottom: 1px solid;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content p:hover{
+    border-bottom: 1px solid rgb(13, 13, 34);
+}
+
+/* BODY-MOON --------------------------------------- */
+
+
+.body-moon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.moon-image img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 90px wheat;
+    animation-name: animate1;
+    animation-iteration-count: infinite;
+    animation-duration: .7s;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+
+@keyframes animate1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.moon-text{
+    margin-top: 20px;
+    
+}
+
+.moon-text h3{
+    color: #fff;
+    font-size: 35px;
+}
+
+.moon-text .button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(75, 75, 226);
+}
+
+.moon-text .button:hover{
+    box-shadow: 0px 0px 10px #fff;
+    color: #000;
+}
+
+.moon-text .button:active{
+    border: solid 2px black;
+}
+
+

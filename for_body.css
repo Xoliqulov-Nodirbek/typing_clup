@@ -1,0 +1,354 @@
+/* NEW ----------------------------------------------------- */
+
+
+.new{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.new-image img{
+    width: 35rem;
+    height: 30rem;
+}
+
+.new-text{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.new-text h6{
+    color: rgb(165, 161, 161);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.new-text p{
+    color: grey;
+}
+
+.new-text button{
+    margin-top: 12px;
+    padding: 5px 10px;
+    background-color: rgb(28, 138, 211);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.new-text button:active{
+    background-color: rgb(6, 105, 170);
+}
+
+
+/* CONTACT ----------------------------------------- */
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 104, 218);
+    height: 100px;
+    margin: auto;
+
+}
+
+.contact1{
+    display: flex;
+    padding: 0px 50px;
+    margin-top: 20px;
+
+}
+
+.contact1-icon img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 15px;
+}
+
+.contact1-text h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.contact1-text p{
+    color: #fff;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+
+/* ALL-TEXTS -------------------------------------------- */
+
+
+.all-texts{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.all-text1{
+    width: 350px;
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.all-text1 h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.all-text1 p{
+    font-size: 13px;
+    color: grey;
+}
+
+.all-text2{
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.all-text2 h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.all-text2 p{
+    font-size: 13px;
+    color: grey;
+}
+
+
+/* TYPE-CLUP------------------------------- */
+
+
+.type-clup{
+    margin-top: 100px;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.subtitle p{
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: rgb(153, 153, 153);
+}
+
+.subtitle h4{
+    font-size: 21px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.subbody_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbody-content{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    margin: 50px 40px;
+}
+
+.subbody-content img{
+    width: 150px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.subbody-content p{
+    font-size: 11.5px;
+    text-align: center;
+    color: grey;
+}
+
+.new-button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.new-button button{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 6px 40px;
+    background-color: rgb(58, 131, 214);
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+/* HOVER */
+
+
+.new-button button:hover{
+    background-color: rgb(25, 98, 158);
+}
+
+
+/* MORE-LESSON------------------------------------  */
+
+.more-lesson{
+    background-color: rgba(241, 241, 241, 0.904);
+    padding: 90px 0px;
+}
+
+.more-lesson1{
+    display: flex;
+    justify-content: center;
+}
+
+.title p{
+    color:rgb(153, 153, 153);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.more-image{
+    width: 280px;
+    margin: 0px 20px;
+}
+
+.more-image img{
+    width: 280px;
+    height: 170px;
+    margin-bottom: 15px;
+}
+
+.more-image a{
+    font-size: 25px;
+    margin-bottom: 15px;
+    filter: blur(.5px);
+    font-weight: 600;
+}
+
+.more-image p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.more-image button{
+    background-color: rgb(58, 131, 214);
+    color: #fff;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.more-image button:hover{
+    background-color: rgb(25, 98, 158);
+    cursor: pointer;
+}
+
+
+.more-text p{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+    font-size: 14px;
+    color: grey;
+}
+
+
+/* VOCABULARY------------------------------------------- */
+
+.spelling{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spelling img{
+    width: 350px;
+    height: 250px;
+}
+
+.spelling p{
+    font-size: 25px;
+    color: grey;
+}
+
+.spelling a{
+    font-size: 25px;
+}
+
+/* BLACK-------------------------------------------------- */
+
+.black{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 7, 29);
+}
+
+.black-image img{
+    width: 250px;
+    height: 300px;
+    margin: 60px 80px;
+}
+
+.black-text{
+    margin-top: 50px;
+    width: 700px;
+}
+
+.black-text h6{
+    color: #888;
+    margin-top: 70px; 
+    font-size: 12px; 
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.black-text h4{
+    color: #fff;
+}
+
+.black-text p{
+    color: #888;
+    font-size: 19px;
+}
+
+.black-text button{
+    padding: 5px 32px;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    border: none;
+}
+
+.black-text button:hover{
+    background-color: rgb(180, 179, 179);
+}
+
+.black-text button:active{
+    transform: scale(0.95);
+}
